@@ -26,7 +26,7 @@ class AdminController extends Controller
         $data->image = $filename;
 
         $data->save();
-        return redirect()->back();
+        return redirect('view_menu');
     }
 
     public function view_menu()
