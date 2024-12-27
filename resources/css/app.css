@@ -5,3 +5,11 @@
 [x-cloak] {
     display: none;
 }
+
+.custom-login-btn {
+    background-color: #EC6F1B;  /* Ganti dengan warna kustom */
+    color: white;   
+}
+
+
+
