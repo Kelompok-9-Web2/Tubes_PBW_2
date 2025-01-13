@@ -20,6 +20,5 @@ export default {
     },
 
     plugins: [forms, typography],
+    
 };
-
-

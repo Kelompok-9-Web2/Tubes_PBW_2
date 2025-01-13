@@ -5,15 +5,13 @@
     @include('admin.css')
 
     <style>
-        label
-        {
-            display:inline-block;
+        label {
+            display: inline-block;
             width: 200px;
             color: white;
         }
 
-        .div_deg
-        {
+        .div_deg {
             padding: 10px;
         }
     </style>
@@ -39,6 +37,23 @@
                         <input type="text" name="title" required>
 
                     </div>
+
+                    <div class="div_deg">
+
+                        <label for="category">Pilih Kategori:</label>
+                        <select name="category" required>
+                        <option selected disabled>Pilih Kategori</option>
+                        @foreach ($data as $data )
+
+                            <option>{{$data->name}}</option>
+
+                        @endforeach
+                        </select>
+
+
+                    </div>
+
+
 
                     <div class="div_deg">
 

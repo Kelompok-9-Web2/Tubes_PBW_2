@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Modern</title>
+    <title>Kulineran</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
 </head>
@@ -72,54 +72,21 @@
         </div>
     </section>
 
-    <!-- Developer Profile Section -->
-    <section class="py-12 bg-orange-500 text-black">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-4xl font-bold mb-8">Tim Pengembang Kami</h2>
-            <div class="flex flex-wrap justify-center gap-8">
-                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform transition duration-300 hover:scale-105 w-64">
-                    <img src="https://asset.kompas.com/crops/fxADh7Paf6GHgE12oj3ke5Y-dN8=/0x0:1000x667/1200x800/data/photo/2021/12/21/61c161511efb8.jpg" alt="Developer 1" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">John Doe</h3>
-                        <p class="text-gray-600 mb-4">Web developer yang berfokus pada desain dan pengalaman pengguna.</p>
-                        <a href="mailto:john@example.com" class="text-orange-500 hover:text-orange-600">Email Saya</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform transition duration-300 hover:scale-105 w-64">
-                    <img src="https://asset.kompas.com/crops/fxADh7Paf6GHgE12oj3ke5Y-dN8=/0x0:1000x667/1200x800/data/photo/2021/12/21/61c161511efb8.jpg" alt="Developer 1" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">John Doe</h3>
-                        <p class="text-gray-600 mb-4">Web developer yang berfokus pada desain dan pengalaman pengguna.</p>
-                        <a href="mailto:john@example.com" class="text-orange-500 hover:text-orange-600">Email Saya</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform transition duration-300 hover:scale-105 w-64">
-                    <img src="https://asset.kompas.com/crops/fxADh7Paf6GHgE12oj3ke5Y-dN8=/0x0:1000x667/1200x800/data/photo/2021/12/21/61c161511efb8.jpg" alt="Developer 1" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">John Doe</h3>
-                        <p class="text-gray-600 mb-4">Web developer yang berfokus pada desain dan pengalaman pengguna.</p>
-                        <a href="mailto:john@example.com" class="text-orange-500 hover:text-orange-600">Email Saya</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-xl shadow-xl overflow-hidden transform transition duration-300 hover:scale-105 w-64">
-                    <img src="https://asset.kompas.com/crops/fxADh7Paf6GHgE12oj3ke5Y-dN8=/0x0:1000x667/1200x800/data/photo/2021/12/21/61c161511efb8.jpg" alt="Developer 1" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">John Doe</h3>
-                        <p class="text-gray-600 mb-4">Web developer yang berfokus pada desain dan pengalaman pengguna.</p>
-                        <a href="mailto:john@example.com" class="text-orange-500 hover:text-orange-600">Email Saya</a>
-                    </div>
-                </div>
-                <!-- Duplicate for other developers if needed -->
-            </div>
-        </div>
-    </section>
-
+    
     <!-- Call to Action Section -->
     <section id="register" class="py-12 bg-gray-100 text-center">
         <h2 class="text-3xl font-bold mb-4">Bergabunglah Sekarang</h2>
         <p class="mb-6">Nikmati berbagai keunggulan dan kemudahan dalam mencari kuliner favorit Anda.</p>
         <a href="/register" class="bg-white text-orange-500 px-8 py-4 rounded-full text-lg hover:bg-gray-200 transition duration-300 transform hover:scale-110">Daftar Sekarang</a>
+
+        <!-- Tombol I am Admin -->
+    <a href="/admin-login" 
+       class="absolute top-4 right-4 bg-gray-500 text-white px-4 py-2 rounded-full text-sm hover:bg-gray-700 transition duration-300 transform hover:scale-105">
+       I am Admin
+    </a>
     </section>
+
+    
 
     <!-- Footer Section -->
     <footer class="bg-gray-800 text-white py-6">

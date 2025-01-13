@@ -23,7 +23,17 @@
             color: white;
             padding: 10px;
         }
-    
+
+        .table-img {
+                width: 280px;
+                /* Sesuaikan ukuran */
+                height: 192px;
+                /* Sesuaikan ukuran */
+                object-fit: cover;
+                /* Mencegah gambar melar */
+        }
+
+        
     </style>
 </head>
 
@@ -44,6 +54,7 @@
                     <table>
                         <tr>
                             <th>Nama Menu</th>
+                            <th>Kategori</th>
                             <th>Detail</th>
                             <th>Harga</th>
                             <th>Gambar</th>
@@ -55,20 +66,21 @@
 
                         <tr>
                             <td>{{$data->title}}</td>
-                            <td>{{$data->detail}}</td>
+                            <td>{{$data->category}}</td>
+                            <td>Detail Tersedia Pada Halaman User</td>
                             <td>{{$data->harga}}</td>
                             <td>
-                                <img width = "150" src="menu_img/{{$data->image}}" alt="">
+                                <img class="table-img" width="150" src="menu_img/{{$data->image}}" alt="">
                             </td>
                             <td>
-                                <a class= "btn btn-danger" onclick="return confirm('Hapus Menu?')" 
-                                href="{{url('delete_menu', $data->id)}}">Hapus</a>
+                                <a class="btn btn-danger" onclick="return confirm('Hapus Menu?')"
+                                    href="{{url('delete_menu', $data->id)}}">Hapus</a>
                             </td>
                             <td>
                                 <a class="btn btn-warning" href="{{url('update_menu',$data->id)}}">Update</a>
                             </td>
                         </tr>
-                        
+
                         @endforeach
 
                     </table>

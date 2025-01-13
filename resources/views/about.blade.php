@@ -9,8 +9,7 @@
     <!-- Teks di atas gambar -->
     <div class="absolute inset-0 flex items-center justify-center text-center text-white">
         <div>
-            <h1 class="text-4xl md:text-6xl font-semibold">About the Developers</h1>
-            <p class="text-lg md:text-2xl mt-4">Ini adalah teks yang muncul di atas gambar.</p>
+            <h1 class="text-4xl md:text-6xl font-semibold">About Developers</h1>
         </div>
     </div>
 </div>
@@ -23,37 +22,37 @@
             <!-- Developer 1 -->
             <div class="relative bg-gradient-to-r p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all">
                 <div class="flex justify-center mb-4">
-                    <img src="https://via.placeholder.com/150" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
+                    <img src="admin/img/arkan-kocak.jpg.png" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
                 </div>
-                <h3 class="text-2xl font-semibold text-black mb-2">Developer 1</h3>
-                <p class="text-black-100">Full-stack developer with a passion for clean code and intuitive UI/UX designs.</p>
+                <h3 class="text-2xl font-semibold text-black mb-2">Muhammad Arkan</h3>
+                <p class="text-black-100">Full-stack developer</p>
             </div>
 
             <!-- Developer 2 -->
             <div class="relative bg-gradient-to-r p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all">
                 <div class="flex justify-center mb-4">
-                    <img src="https://via.placeholder.com/150" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
+                    <img src="admin/img/fahmi.jpg.png" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
                 </div>
-                <h3 class="text-2xl font-semibold text-black mb-2">Developer 1</h3>
-                <p class="text-black-100">Full-stack developer with a passion for clean code and intuitive UI/UX designs.</p>
+                <h3 class="text-2xl font-semibold text-black mb-2">Fahmi Haikal</h3>
+                <p class="text-black-100">UI/UX Design</p>
             </div>
 
             <!-- Developer 3 -->
             <div class="relative bg-gradient-to-r p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all">
                 <div class="flex justify-center mb-4">
-                    <img src="https://via.placeholder.com/150" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
+                    <img src="admin/img/ghina.jpg.png" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
                 </div>
-                <h3 class="text-2xl font-semibold text-black mb-2">Developer 1</h3>
-                <p class="text-black-100">Full-stack developer with a passion for clean code and intuitive UI/UX designs.</p>
+                <h3 class="text-2xl font-semibold text-black mb-2">Ghina Aniqah Yolanda</h3>
+                <p class="text-black-100">Frontend Developer and UI/UX Design</p>
             </div>
 
             <!-- Developer 4 -->
             <div class="relative bg-gradient-to-r p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all">
                 <div class="flex justify-center mb-4">
-                    <img src="https://via.placeholder.com/150" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
+                    <img src="admin/img/danen.jpg.jpg" alt="Developer 1" class="w-32 h-32 rounded-full object-cover">
                 </div>
-                <h3 class="text-2xl font-semibold text-black mb-2">Developer 1</h3>
-                <p class="text-black-100">Full-stack developer with a passion for clean code and intuitive UI/UX designs.</p>
+                <h3 class="text-2xl font-semibold text-black mb-2">Danendra Satriyo</h3>
+                <p class="text-black-100">Full-stack developer .</p>
             </div>
         </div>
     </div>
@@ -73,5 +72,8 @@
             </a>
         </div>
     </div>
+
+    
+    </footer>
 
 </x-layout>

@@ -53,6 +53,8 @@
                     </a>
                 @endif
 
+                
+
                 <x-button class="ms-4 custom-login-btn">
                     {{ __('Log in') }}
                 </x-button>
@@ -71,5 +73,7 @@
         <!-- Bagian Gambar Bakso -->
         <img src="{{ asset('images/meatball.png') }}" alt="Bakso Image" class="absolute w-40 h-40 object-cover rounded-lg top-1/2 left-[140px] transform -translate-x-[50px] -translate-y-[5px]">
         </div>
+
+        
     </x-authentication-card>
 </x-guest-layout>

@@ -18,12 +18,12 @@ class HomeController extends Controller
 
             if($usertype=='user')
             {
-                return view('dashboard');
+                return view('home');
             }
 
             else
             {
-                return view('admin.index');
+                return view('admin.add_menu');
             }
         }
     }
